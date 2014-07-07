@@ -1,4 +1,5 @@
 ActiveAdmin.register Sitereview do
+  permit_params :result, :url
 
   
   # See permitted parameters documentation:
